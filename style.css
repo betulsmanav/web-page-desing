@@ -65,29 +65,37 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 800px;
+    height: 600px;
     font-family:"Segoe UI", sans-serif;
     color: white;
-    font-size: 2em;
+    font-size: 1.8em;
     opacity: 0.8;
     text-align: center;
+    padding: 4em;
+}
+#home-p{
+    font-size: 16px;
+}
 
     
-}
 /* ============================= */
 .tools-section{
-    display: flex;
-    justify-content: space-evenly;
+    display:inline-flex;
+    text-align: center;
     padding: 2em ;
+}
+.tools img{
+    height: 100px;
+    width: 100px;
 }
 
 /* .tool-graphicdesin{
     background-color: blueviolet;
-}
-.tool-css{
+} 
+ .tool-css{
 
     background-color: aqua;
-} */
+}  */
 
 /* ============================ */
 .footer{
