@@ -46,12 +46,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.subscrib>div>h2{
-    margin-left: 1.2em;
     color: white;
-    opacity: 0.8;
-
+    padding-left: 1.2em;
 }
 #subscrib-btn{
     color: white;
