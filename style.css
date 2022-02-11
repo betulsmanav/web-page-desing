@@ -15,8 +15,8 @@
     border-bottom: 2px solid #a5518a;
 }
 .sticky-bar>h1{
-    float: left;
     font-size: 1.5em;
+    float: left;
     color: #a5518a;
     margin-left: 1em;
     
@@ -24,7 +24,7 @@
 .sticky-bar>h1>span{
     color: white;
     opacity: 0.8;
-
+    
 }
 .sticky-bar>a{
     float: right;
@@ -66,34 +66,23 @@
 
 .home-background{
     background: url(./img/showcase.jpg);
-    /* background-size:no-repeat cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 800px;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: baseline; */
-    /* align-content: center;!!!!!!!!!!!!!!calismiyor. */
-    
-}
-.home-background>h1{
     font-family:"Segoe UI", sans-serif;
+    color: white;
     font-size: 2em;
-    color: white;
     opacity: 0.8;
+    text-align: center;
 
-}
-.home-background>p{
-    font-family:"Segoe UI", sans-serif;
-    font-size: 1em;
-    color: white;
-    opacity: 0.8;
+    
 }
 /* ============================= */
 .tools-section{
     display: flex;
     justify-content: space-evenly;
     padding: 2em ;
-    padding-left: 2em;
 }
 
 /* .tool-graphicdesin{
